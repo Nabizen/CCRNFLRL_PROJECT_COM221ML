@@ -1,6 +1,8 @@
 # Gymnasium Tetris Setup
 
-How to install and set up **Gymnasium** with the **Tetris** environment using **ALE-Py**.
+How to install and set up **Gymnasium** with the **Tetris** environment using **Tetris-Gymnasium**.
+
+https://max-we.github.io/Tetris-Gymnasium/introduction/installation/
 
 ## Requirements
 - Python 3.8 or higher
@@ -23,8 +25,8 @@ How to install and set up **Gymnasium** with the **Tetris** environment using **
     ```bash
     pip install gymnasium
 
-4. **Install ALE-py**
+4. **Install tetris-gymnasium**
 
     ```bash
-    pip install ale-py
+    pip install tetris-gymnasium
     
