@@ -1,0 +1,17 @@
+{"time":"2025-10-18T23:28:40.0501847+08:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-18T23:28:40.1725247+08:00","level":"WARN","msg":"featurechecker: GraphQL client is nil, skipping feature loading"}
+{"time":"2025-10-18T23:28:40.1730896+08:00","level":"INFO","msg":"stream: created new stream","id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:40.1730896+08:00","level":"INFO","msg":"handler: started","stream_id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:40.1760768+08:00","level":"INFO","msg":"stream: started","id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:40.1760768+08:00","level":"INFO","msg":"writer: started","stream_id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:40.1760768+08:00","level":"INFO","msg":"sender: started","stream_id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:40.1766263+08:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-10-18T23:28:40.3022455+08:00","level":"ERROR","msg":"error getting latest commit","error":"exit status 128"}
+{"time":"2025-10-18T23:28:42.8936092+08:00","level":"INFO","msg":"stream: closing","id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:50.4862822+08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-10-18T23:28:50.4862822+08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"C:\\\\Users\\\\Lenovo\\\\Documents\\\\VS Code\\\\Python\\\\RL_Tetris\\\\CCRNFLRL_PROJECT_COM221ML\\\\runs\\\\tetris_gymnasium\\\\Tetris__train_ppo__1__1760801308\")","namespace":""}
+{"time":"2025-10-18T23:28:50.4867874+08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"C:\\Users\\Lenovo\\Documents\\VS Code\\Python\\RL_Tetris\\CCRNFLRL_PROJECT_COM221ML\\runs\\tetris_gymnasium\\Tetris__train_ppo__1__1760801308\\events.out.tfevents.1760801320.LAPTOP-RCT3I8M4.14340.0","runPath":"runs/tetris_gymnasium/Tetris__train_ppo__1__1760801308/events.out.tfevents.1760801320.LAPTOP-RCT3I8M4.14340.0"}
+{"time":"2025-10-18T23:28:50.4888741+08:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"C:\\Users\\Lenovo\\Documents\\VS Code\\Python\\RL_Tetris\\CCRNFLRL_PROJECT_COM221ML\\runs\\tetris_gymnasium\\Tetris__train_ppo__1__1760801308\\events.out.tfevents.1760801320.LAPTOP-RCT3I8M4.14340.0","symlink":"C:\\Users\\Lenovo\\Documents\\VS Code\\Python\\RL_Tetris\\CCRNFLRL_PROJECT_COM221ML\\wandb\\offline-run-20251018_232837-pqsh7tdn\\files\\runs\\tetris_gymnasium\\Tetris__train_ppo__1__1760801308\\events.out.tfevents.1760801320.LAPTOP-RCT3I8M4.14340.0","error":"symlink C:\\Users\\Lenovo\\Documents\\VS Code\\Python\\RL_Tetris\\CCRNFLRL_PROJECT_COM221ML\\runs\\tetris_gymnasium\\Tetris__train_ppo__1__1760801308\\events.out.tfevents.1760801320.LAPTOP-RCT3I8M4.14340.0 C:\\Users\\Lenovo\\Documents\\VS Code\\Python\\RL_Tetris\\CCRNFLRL_PROJECT_COM221ML\\wandb\\offline-run-20251018_232837-pqsh7tdn\\files\\runs\\tetris_gymnasium\\Tetris__train_ppo__1__1760801308\\events.out.tfevents.1760801320.LAPTOP-RCT3I8M4.14340.0: A required privilege is not held by the client."}
+{"time":"2025-10-18T23:28:50.5012389+08:00","level":"INFO","msg":"handler: closed","stream_id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:50.5023012+08:00","level":"INFO","msg":"sender: closed","stream_id":"pqsh7tdn"}
+{"time":"2025-10-18T23:28:50.5023012+08:00","level":"INFO","msg":"stream: closed","id":"pqsh7tdn"}

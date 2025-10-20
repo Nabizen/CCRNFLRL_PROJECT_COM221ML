@@ -1,0 +1,59 @@
+2025-10-18 23:26:51,066 INFO    MainThread:23140 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-18 23:26:51,066 INFO    MainThread:23140 [wandb_setup.py:_flush():81] Configure stats pid to 23140
+2025-10-18 23:26:51,066 INFO    MainThread:23140 [wandb_setup.py:_flush():81] Loading settings from C:\Users\Lenovo\.config\wandb\settings
+2025-10-18 23:26:51,066 INFO    MainThread:23140 [wandb_setup.py:_flush():81] Loading settings from C:\Users\Lenovo\Documents\VS Code\Python\RL_Tetris\CCRNFLRL_PROJECT_COM221ML\wandb\settings
+2025-10-18 23:26:51,067 INFO    MainThread:23140 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-18 23:26:51,067 INFO    MainThread:23140 [wandb_init.py:setup_run_log_directory():705] Logging user logs to C:\Users\Lenovo\Documents\VS Code\Python\RL_Tetris\CCRNFLRL_PROJECT_COM221ML\wandb\offline-run-20251018_232651-cxk82ajn\logs\debug.log
+2025-10-18 23:26:51,067 INFO    MainThread:23140 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to C:\Users\Lenovo\Documents\VS Code\Python\RL_Tetris\CCRNFLRL_PROJECT_COM221ML\wandb\offline-run-20251018_232651-cxk82ajn\logs\debug-internal.log
+2025-10-18 23:26:51,077 INFO    MainThread:23140 [wandb_init.py:init():832] calling init triggers
+2025-10-18 23:26:51,078 INFO    MainThread:23140 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'exp_name': 'train_ppo', 'seed': 1, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'tetris_gymnasium_ppo', 'wandb_entity': None, 'capture_video': True, 'env_id': 'tetris_gymnasium/Tetris', 'total_timesteps': 10000000, 'learning_rate': 0.00025, 'num_envs': 8, 'num_steps': 128, 'anneal_lr': True, 'gamma': 0.999, 'gae_lambda': 0.95, 'num_minibatches': 8, 'update_epochs': 6, 'norm_adv': True, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.1, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None, 'batch_size': 1024, 'minibatch_size': 128, 'num_iterations': 9765, '_wandb': {'code_path': 'code/Tetris-Gymnasium/examples/train_ppo.py'}}
+2025-10-18 23:26:51,078 INFO    MainThread:23140 [wandb_init.py:init():880] starting backend
+2025-10-18 23:26:53,928 INFO    MainThread:23140 [wandb_init.py:init():883] sending inform_init request
+2025-10-18 23:26:53,965 INFO    MainThread:23140 [wandb_init.py:init():891] backend started and connected
+2025-10-18 23:26:53,966 INFO    MainThread:23140 [wandb_init.py:init():961] updated telemetry
+2025-10-18 23:26:54,022 INFO    MainThread:23140 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-18 23:26:54,575 INFO    MainThread:23140 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-18 23:26:54,788 INFO    MainThread:23140 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-18 23:26:54,788 INFO    MainThread:23140 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-18 23:26:54,788 INFO    MainThread:23140 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-18 23:26:54,788 INFO    MainThread:23140 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-18 23:26:54,793 INFO    MainThread:23140 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-18 23:26:54,794 INFO    MainThread:23140 [wandb_run.py:_tensorboard_callback():1601] tensorboard callback: runs/tetris_gymnasium/Tetris__train_ppo__1__1760801201, True
+2025-10-18 23:26:54,873 INFO    wandb-AsyncioManager-main:23140 [service_client.py:_forward_responses():80] Reached EOF.
+2025-10-18 23:26:54,873 INFO    wandb-AsyncioManager-main:23140 [mailbox.py:close():137] Closing mailbox, abandoning 0 handles.
+2025-10-18 23:27:04,841 ERROR   MainThread:23140 [redirect.py:_on_write():664] [all runs] error in stdout callback
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\lib\redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\wandb_run.py", line 2430, in <lambda>
+    lambda data: self._console_raw_callback("stdout", data),
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\wandb_run.py", line 1595, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\interface\interface.py", line 802, in publish_output_raw
+    self._publish_output_raw(o)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 37, in _publish_output_raw
+    self._publish(rec)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 43, in _publish
+    self._asyncer.run(lambda: self._client.publish(request))
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 136, in run
+    return future.result()
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\concurrent\futures\_base.py", line 458, in result
+    return self.__get_result()
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 219, in _wrap
+    return await fn()
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\asyncio\streams.py", line 371, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\Lenovo\.conda\envs\rl_finals\lib\asyncio\streams.py", line 167, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
