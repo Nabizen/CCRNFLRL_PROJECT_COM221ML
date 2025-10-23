@@ -2,6 +2,8 @@
 
 How to install and set up **Gymnasium** with the **Tetris** environment using **Tetris-Gymnasium**.
 
+![Demo](assets/UER_Tetris_Agent.gif)
+
 https://max-we.github.io/Tetris-Gymnasium/introduction/installation/
 
 ## Requirements
